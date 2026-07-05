@@ -5,10 +5,7 @@ use Executive_Dashboard
 -----------------------------------------------------------------------
 
 
-create table dbo.Region
-(Region_ID int identity(1,1) primary key
-,Region_name varchar(25)
+create table dbo.Sales_Rep
+(Seller_ID int identity(1,1) primary key
+,Seller_name varchar(25)
 )
-
-
-
